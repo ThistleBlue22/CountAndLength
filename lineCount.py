@@ -8,7 +8,7 @@ def linecount(doc):
             filledlines = lines.rstrip()
             if filledlines:
                 total += 1
-
+    print(total)
     return total
 
 
