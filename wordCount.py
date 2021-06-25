@@ -7,7 +7,7 @@ def wordcount(doc):
             for x in w.split():  # iterating through the words on each line and splitting at the next space character
                 words += 1  #
 
-    print(words)
+    # print(words)
     return words  # returning the 'words' list
 
 

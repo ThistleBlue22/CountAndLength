@@ -15,10 +15,10 @@ def meanwordlen(doc):
         length += num
 
     meanwordlength = (length / len(words))
-    print(length)
-    print(len(words))
-    print(meanwordlength)
-    #return meanwordlength
+    # print(length)
+    # print(len(words))
+    # print(meanwordlength)
+    return meanwordlength
 
 
 if __name__ == "__main__":
