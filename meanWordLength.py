@@ -2,7 +2,7 @@
 
 def meanwordlen(doc):
     words = []  # simple list initialisation ready for appending
-    length = 0
+    length = 0  # initialising the "length" value for use in the program
 
     with open(doc, 'r') as word:
         for w in word.readlines():  # iterating through the file assigning each line to w
@@ -14,10 +14,7 @@ def meanwordlen(doc):
         num = len(count)
         length += num
 
-    meanwordlength = (length / len(words))
-    # print(length)
-    # print(len(words))
-    # print(meanwordlength)
+    meanwordlength = (length / len(words))  # sets the meanwordlength equal to the length
     return meanwordlength
 
 
