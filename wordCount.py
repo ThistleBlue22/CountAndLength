@@ -7,10 +7,4 @@ def wordcount(doc):
             for x in w.split():  # iterating through the words on each line and splitting at the next space character
                 words += 1  # increments the value stored in "words" for each loop
 
-    # print(words)
     return words  # returning the 'words' list
-
-
-#if __name__ == "__main__":
-#    document = "test.md"
-#    wordcount(doc=document)

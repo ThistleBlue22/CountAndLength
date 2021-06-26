@@ -16,8 +16,3 @@ def meanwordlen(doc):
 
     meanwordlength = (length / len(words))  # sets the meanwordlength equal to the length
     return meanwordlength
-
-
-if __name__ == "__main__":
-    document = "test.md"
-    meanwordlen(doc=document)

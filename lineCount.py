@@ -8,10 +8,5 @@ def linecount(doc):
             filledlines = lines.rstrip()  # cuts out the blank lines
             if filledlines:
                 total += 1  # increments the value stored in "words" for each loop
-    # print(total)
+
     return total
-
-
-if __name__ == "__main__":
-    document = "test.md"
-    linecount(doc=document)
